@@ -16,7 +16,8 @@ class Frontdesign extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Center(child: Lottie.asset("assets/stud2.json")),
+          Center(child: Lottie.asset("assets/stud1.json")),
+          SizedBox(height: 20),
           Text(
             "student Directory App",
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
